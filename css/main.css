@@ -125,11 +125,15 @@ main {
 header,
 footer,
 main {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-container {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-items {
@@ -139,6 +143,9 @@ main {
   background-color: #f16059;
   width: 30%;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ==========================================================================
@@ -226,10 +233,14 @@ main {
   #div-1,
   #div-2{
       /* set your flex value to 1 50% */
+      flex-flow: 1 50%;
+      justify-content: space-between;
   }
 
   #div-3 {
     /* set your flex value to 1 100% */
+    flex-flow: 1 100%;
+    justify-content: space-between;
   }
 }
 
